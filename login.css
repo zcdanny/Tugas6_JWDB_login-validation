@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+
+.btn-nav {
+    display: block;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
+
+}
+
+.btn-nav:hover {
+    background-color: greenyellow;
+}
+
+main {
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+}
+
+#login-container label, button {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    background-color: cyan;
+    padding: 5px 8px;
+}
+
+.error-message {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.success-message {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
